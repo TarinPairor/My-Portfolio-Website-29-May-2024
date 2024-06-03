@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is my hardcoded portfolio page made with (NextJs)[https://nextjs.org/] and TypeScript with Tailwind CSS for styling.
+This is my hardcoded portfolio page made with [NextJs](https://nextjs.org/) and TypeScript with Tailwind CSS for styling.
 
 # References
 
@@ -12,4 +12,5 @@ Some components used from on [judygab](https://github.com/judygab/nextjs-portfol
 - [Navbar](/app/_components/Navbar.tsx)
 - [Navlink](/app/_components/Navlink.tsx)
 - [TabButton](/app/_components/TabButton.tsx)
+
 # My-Portfolio-Website-29-May-2024
