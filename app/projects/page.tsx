@@ -11,7 +11,7 @@ const projects = [new NUScheduly(), new Taylord4u(), new Nudge()];
 function ProjectSection() {
   return (
     <div>
-      <div className="text-6xl font-extrabold my-9 font-mono">
+      <div className="text-3xl md:text-6xl font-extrabold my-9 font-mono">
         <TypeWriterAnimation
           sequence={["My Projects", 2000, " My Projects", 2000]}
         >

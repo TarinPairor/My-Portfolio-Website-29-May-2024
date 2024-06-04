@@ -7,7 +7,8 @@ export abstract class Project {
   abstract description: string;
   abstract content: string[];
   image?: string;
-  abstract link: string;
+  date?: string;
+  link?: string;
 
   render(): JSX.Element {
     return (

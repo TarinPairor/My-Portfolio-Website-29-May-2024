@@ -136,13 +136,13 @@ const AboutSection = () => {
               {TAB_DATA.find((t) => t.id === tab)?.content}
             </div>
           </div>
-          <div>
-            <img
+          <div className="">
+            {/* <img
               src="/TKSquareKorat.jpeg"
               alt="TK"
               width={1000}
               height={1000}
-            />
+            /> */}
           </div>
         </div>
       </section>
