@@ -40,7 +40,7 @@ const SpinningImage: React.FC<DraggableImageProps> = ({
       className={classNames("transform transition-transform duration-900")}
       style={{ transform: `rotateY(${rotation}deg)`, boxShadow: shadow }}
     >
-      <Image src={src} alt={alt} width={width} height={height} />
+      <img src={src} alt={alt} width={width} height={height} />
     </div>
   );
 };

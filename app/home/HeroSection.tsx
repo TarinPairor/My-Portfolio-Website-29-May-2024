@@ -39,7 +39,7 @@ function HeroSection() {
         </div>
 
         <div className="col-span-5">
-          <Image
+          <img
             src="/TarinPairorProfile.jpeg"
             alt="Tarin Pairor Profile"
             width={400}

@@ -137,7 +137,7 @@ const AboutSection = () => {
             </div>
           </div>
           <div>
-            <Image
+            <img
               src="/TKSquareKorat.jpeg"
               alt="TK"
               width={1000}

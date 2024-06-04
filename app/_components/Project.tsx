@@ -26,7 +26,7 @@ export abstract class Project {
         <p className=" hover:text-slate-600">{this.description}</p>
         {this.image && (
           <div className="z-10">
-            <Image
+            <img
               src={this.image}
               alt={this.title}
               className="my-4"
