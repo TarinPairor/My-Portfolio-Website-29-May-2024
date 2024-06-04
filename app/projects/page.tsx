@@ -3,9 +3,10 @@ import React from "react";
 import Image from "next/image";
 import NUScheduly from "./_components/Taylord4u";
 import Taylord4u from "./_components/NUScheduly";
+import Nudge from "./_components/Nudge";
 import { TypeWriterAnimation } from "../_components/TypeWriteAnimation";
 
-const projects = [new NUScheduly(), new Taylord4u()];
+const projects = [new NUScheduly(), new Taylord4u(), new Nudge()];
 
 function ProjectSection() {
   return (
