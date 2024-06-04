@@ -98,7 +98,7 @@ const AboutSection = () => {
             </ul>
 
             <Link
-              href="https://aseannow.com/topic/1129154-world-scrabble-championship-fifteen-year-old-thai-boy-in-third-place/"
+              href="https://en.wikipedia.org/wiki/World_Youth_Scrabble_Championships#WESPA_Youth_Cup_2019_:_Kuala_Lumpur,_Malaysia"
               legacyBehavior
             >
               <a

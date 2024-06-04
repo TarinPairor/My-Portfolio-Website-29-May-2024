@@ -6,6 +6,7 @@ import MenuOverLay from "./MenuOverLay";
 const links = [
   { href: "about", label: "About" },
   { href: "projects", label: "Projects" },
+  { href: "volunteering", label: "Volunteering" },
   { href: "contact", label: "Contact" },
 ];
 
