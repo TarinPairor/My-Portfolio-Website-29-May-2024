@@ -144,7 +144,7 @@ const AboutSection = () => {
               width={1000}
               height={1000}
             /> */}
-            <AnimatedLottie />
+            {/* <AnimatedLottie /> */}
           </div>
         </div>
       </section>

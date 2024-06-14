@@ -12,7 +12,7 @@ export abstract class Project {
 
   render(): JSX.Element {
     return (
-      <div className="flex flex-col my-10">
+      <div className="flex flex-col space-y-9">
         <h2 className="text-4xl font-extrabold hover:scale-110 hover:translate-x-10">
           {this.link ? (
             <Link href={this.link} legacyBehavior>
@@ -26,13 +26,11 @@ export abstract class Project {
         </h2>
         <p className=" hover:text-slate-600">{this.description}</p>
         {this.image && (
-          <div className="z-10">
+          <div className="z-10 overflow-hidden">
             <img
               src={this.image}
               alt={this.title}
-              className="my-4"
-              height={1000}
-              width={1000}
+              className="my-4 object-cover h-[500px] w-[60%]"
             />
           </div>
         )}

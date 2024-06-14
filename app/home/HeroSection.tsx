@@ -4,8 +4,8 @@ import React from "react";
 function HeroSection() {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/TarinPairorNewSubmissionResume.pdf";
-    link.download = "TarinPairorNewSubmissionResume.pdf";
+    link.href = "TarinPairorResumeA.pdf";
+    link.download = "TarinPairorResumeA.pdf";
     link.click();
   };
 

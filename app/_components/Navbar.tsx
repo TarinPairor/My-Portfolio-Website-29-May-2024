@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverLay from "./MenuOverLay";
 import { ModeToggle } from "@/components/mode-toggle";
+import { useTheme } from "next-themes";
 
 const links = [
   { href: "about", label: "About" },
@@ -12,6 +13,7 @@ const links = [
 ];
 
 const Navbar: React.FC = () => {
+  const { theme } = useTheme();
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const handleScroll = (id: string) => {
@@ -43,7 +45,11 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-100 bg-opacity-90">
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 ${
+        theme === "dark" ? "bg-slate-600" : "bg-slate-100"
+      } bg-opacity-90`}
+    >
       <div className="flex flex-wrap items-center justify-between mx-auto pr-10">
         <div
           className="text-3xl font-semibold p-10 cursor-pointer"
@@ -91,7 +97,9 @@ const Navbar: React.FC = () => {
               <li key={i}>
                 <button
                   onClick={() => handleScroll(link.href)}
-                  className="text-slate-600 hover:text-slate-200"
+                  className={`text-slate-600 hover:text-slate-100 ${
+                    theme === "dark" ? "text-slate-300" : "text-slate-600"
+                  }`}
                 >
                   {link.label}
                 </button>
