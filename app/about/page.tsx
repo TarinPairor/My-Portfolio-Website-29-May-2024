@@ -5,6 +5,7 @@ import TabButton from "../_components/TabButton";
 import { TypeWriterAnimation } from "../_components/TypeWriteAnimation";
 import AnimatedSection from "../_components/AnimatedSection";
 import Link from "next/link";
+import AnimatedLottie from "../_components/AnimatedLottie";
 
 const TAB_DATA = [
   {
@@ -70,12 +71,12 @@ const AboutSection = () => {
   };
 
   return (
-    <div className="border-solid rounded-lg border-2 border-black m-3">
-      <section className=" text-black" id="about">
+    <div className="border-solid rounded-lg border-2 m-3">
+      <section id="about">
         <div className="lg:grid md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
           {/* <Image src="/images/about-image.png" width={500} height={500} alt=""/> */}
           <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-            <h2 className="text-4xl font-bold text-black mb-4">
+            <h2 className="text-4xl font-bold mb-4">
               {/* <TypeWriterAnimation sequence={["About Me"]} /> */}
               About Me
             </h2>
@@ -143,6 +144,7 @@ const AboutSection = () => {
               width={1000}
               height={1000}
             /> */}
+            <AnimatedLottie />
           </div>
         </div>
       </section>

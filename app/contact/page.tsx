@@ -2,13 +2,13 @@ import React from "react";
 
 function ContactSection() {
   return (
-    <footer className="bg-white border-t border-gray-300 py-10">
+    <footer className=" border-t border-gray-300 py-10">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-extrabold text-center mb-6">Contact Me</h1>
 
         <div className="flex flex-col items-start">
-          <p className="font-bold text-xl text-gray-600">Tarin Pairor</p>
-          <p className=" text-lg text-gray-600">
+          <p className="font-bold text-xl ">Tarin Pairor</p>
+          <p className=" text-lg">
             <a href="mailto:bananra1040@gmail.com" className="hover:underline">
               bananra1040@gmail.com
             </a>

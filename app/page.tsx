@@ -10,8 +10,9 @@ import VolunteeringSection from "./volunteering/page";
 
 const Home: React.FC = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center p-2 bg-custom-gradient">
+    <main className="flex min-h-screen flex-col items-center p-2">
       <Navbar />
+
       <div className="container mt-24 mx-auto ">
         <div id="hero">
           <HeroSection />
