@@ -13,7 +13,7 @@ export abstract class Project {
   render(): JSX.Element {
     return (
       <div className="flex flex-col space-y-9">
-        <h2 className="text-4xl font-extrabold hover:scale-110 hover:translate-x-10">
+        <h2 className="text-2xl lg:text-4xl font-extrabold hover:scale-110 hover:translate-x-10">
           {this.link ? (
             <Link href={this.link} legacyBehavior>
               <a target="_blank" rel="noopener noreferrer">
